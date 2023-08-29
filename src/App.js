@@ -1,9 +1,12 @@
+import { FavoriteColor } from "./components/FavoriteColor";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <main>Hello World!</main>
+      <main>
+        <FavoriteColor />
+      </main>
     </div>
   );
 }
